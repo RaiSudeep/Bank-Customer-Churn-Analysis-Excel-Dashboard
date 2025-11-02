@@ -1,94 +1,105 @@
 ![Bank Churn Analysis](https://github.com/user-attachments/assets/cc81ba95-5af0-4e38-8918-3086ce3920f0)
 
-# Bank Customer Churn Analysis (Excel Dashboard)
-This Excel-based project analyses bank customer churn data to identify key trends, demographic patterns, and churn drivers using interactive dashboards and KPIs. It helps financial institutions optimise retention strategies and improve customer engagement through data-driven insights.
+# 🏦 Bank Customer Churn Analysis (Excel Dashboard)
 
-## 📌 Project Overview
-This project analyses account information for **10,000 customers** from a European bank to understand customer churn patterns. The goal is to uncover **key factors influencing churn**, explore **demographic and behavioral trends**, and segment customers based on account activity.
+## 📍 Project Context
+This project analyses customer churn data from a European bank with over 10,000 customer records. The goal is to uncover patterns in churn behaviour, identify high-risk segments, 
+and provide actionable insights to improve customer retention. The dashboard enables business users to explore churn trends by geography, demographics, and product usage.
 
-## 🎯 Recommended Analysis
-- **Churn Characteristics** – Identifying attributes more common among churners vs. non-churners. Can churn be predicted using available data?
-- **Customer Demographics** – Understanding age, geography, and gender distribution of the bank’s customers.
-- **Geographic Differences** – Comparing account behavior among **German, French, and Spanish** customers.
-- **Customer Segmentation** – Categorising customers into meaningful groups based on **balance, tenure, gender, credit score, and product usage**.
+## 📂 Dataset Background
+The dataset comes from the [Maven Analytics Data Playground – Bank Customer Churn](https://mavenanalytics.io/data-playground/bank-customer-churn?order=date_added%2Cdesc&search=bank+churn), 
+featuring account information for 10,000 customers at a European bank. It includes details on:
 
-## 🔍 Dataset Fields
-The dataset includes the following customer attributes:
-- **CustomerId** – Unique identifier for each customer.
-- **Surname** – Last name of the customer.
-- **CreditScore** – Customer's credit score (financial reliability metric).
-- **Geography** – Country of residence (**France, Germany, Spain**).
-- **Gender** – Male or Female.
-- **Age** – Customer's age.
-- **Tenure** – Number of years the customer has been with the bank.
-- **Balance** – Account balance of the customer.
-- **NumOfProducts** – Number of bank products used by the customer.
-- **HasCrCard** – Whether the customer has a **credit card** (1 = Yes, 0 = No).
-- **IsActiveMember** – Whether the customer is an **active bank member** (1 = Yes, 0 = No).
-- **EstimatedSalary** – Customer's estimated annual salary.
-- **Exited** – Whether the customer has **churned** (1 = Yes, 0 = No).
+- **Credit Score & Balance:** Financial health indicators  
+- **Product Count & Active Status:** Engagement metrics  
+- **Geography & Gender:** Demographic segmentation  
+- **Churn Flag:** Indicates whether a customer has exited the bank  
 
-## 📊 Tools & Techniques
-This analysis is conducted using **Microsoft Excel**, leveraging:
-- **Pivot Tables** for dynamic customer segmentation.
-- **Power Query** for efficient data cleaning and transformation.
-- **Advanced Formulas** for KPI calculations and trend analysis.
-- **Conditional Formatting** for identifying key insights visually.
-- **Charts & Graphs** for comparing churn rates across demographics and behaviors.
+### 🔍 Recommended Analysis Questions  
+- What attributes are more common among churners than non-churners? Can churn be predicted using the variables in the data?  
+- What do the overall demographics of the bank's customers look like?  
+- Is there a difference between German, French, and Spanish customers in terms of account behaviour?  
+- What types of segments exist within the bank's customers?
 
-## 🖥️ Dashboard Overview
-The project includes an **Interactive Excel Dashboard** with the following key components:
+## ❓ Problem Statement
+How can a bank reduce customer churn by identifying key risk factors and understanding the profiles of customers most likely to leave?
 
-### 📊 Charts (6 Total)
-- **Churn Characteristics Analysis by Geography** (Column Chart)
-- **Customer Gender Overview** (Column Chart)
-- **Product Usage Breakdown** (Column Chart)
-- **Balance Distribution Analysis** (Column Chart)
-- **Customer Geographic Difference** (Pie Chart)
-- **Churn Prediction Insights by Tenure** (Line Chart)
+This analysis is useful for customer success teams, product managers, and data analysts focused on improving retention and customer lifetime value.
 
-### 🔎 KPIs Cards (6 Total)
-- **Total Customers**
-- **Churn Rate (%)**
-- **Average Balance**
-- **Average Credit Card**
-- **Highest Churn Country**
-- **Multi-Product Customers**
+## 💡 Key Insight
+- Customers with fewer products and lower credit scores are more likely to churn.  
+- Germany has the highest churn rate among the three countries analysed.  
+- Inactive members and customers with low balances show higher churn tendencies.  
+- Customers with 3+ products are significantly more loyal.  
 
-### 🎯 Slicers (4 Total)
-- **Gender**
-- **Exited Customers**
-- **Geography**
-- **Number of Products**
+## 🛠️ Tools Used  
+- **Excel Pivot Tables:** Summarised churn by geography, gender, and product count.  
+- **Power Query:** Cleaned and transformed raw data.  
+- **Advanced Formulas:** Calculated KPIs like churn rate and average balance.  
+- **Conditional Formatting & Charts:** Visualised churn trends and customer segments.  
 
-## 🗂 Dataset Source
-The dataset used for this analysis comes from **Maven Analytics Data Playground**:  
-🔗 [Bank Customer Churn Dataset](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=bank%20churn)
+## 🔄 Process Walkthrough 
+- Cleaned and loaded data using Power Query.  
+- Defined KPIs: Total Customers, Churn Rate, Avg. Balance, Avg. Credit Score.  
+- Created pivot tables to analyse churn by geography, gender, and product count.  
+- Built an interactive dashboard with slicers and KPI cards for dynamic filtering.  
 
-## 📷 Dashboard Screenshot
+## 📊 Dashboard Highlights  
 ![Bank Customer Churn Dashboard](https://github.com/user-attachments/assets/aeceeece-b161-43d4-b9ec-b7abf6044de5)
+This visual summarises key metrics and allows dynamic filtering by geography, gender, product count, and churn status.
+
+## 📈 Pivot Table Logic  
+![Bank Customer Churn Pivot Table](https://github.com/user-attachments/assets/62147903-b78a-4fab-b088-39c363bc4074)
+The backend view supports dashboard insights and shows how KPIs were calculated using pivot tables and formulas.
 
 
-## 🔎 How to Use the Project
-1. Open the **Bank Customer Churn (Data Analysis).xlsx** file in **Excel**.
-2. Navigate through the dashboard to explore **customer churn trends**.
-3. Use **slicers** to filter data by **gender, exited customer, country, or product usage**.
-4. Review **charts and KPI cards** for quick business performance evaluation.
-5. If you want to modify charts, **go to "Format Cells" from the Home tab and unprotect the sheets** using the password **1234**.
+## 🏆 Key Findings
 
-## 🏆 Key Findings & Business Impact
-- **Churn Drivers** – Customers with **lower credit scores, fewer bank products, and inactive accounts** are more likely to churn.
-- **Demographic Trends** – Female customers are the **lowest in number** comparing to Male customers.
-- **Geographic Differences** – French customers exhibit **different banking behaviors** compared to German and Spanish customers.
-- **Retention Strategies** – Insights from this analysis can help banks **optimise customer retention strategies** and personalise offerings.
+- **Total Customers Analysed:** 10,000  
+- **Overall Churn Rate:** 20.37%  
+- **Highest Churn Country:** Germany (814 churned out of 1,695 customers)  
+- **Gender Split:** Fairly balanced – 45% Female, 55% Male  
+- **Tenure Impact:** In their first year, around 62% of customers left the bank. By the tenth year,
+  churn dropped to just 21%, showing that long-term customers are far more likely to stay.  
+- **Product Usage:** The majority of customers hold only 1 product (5,084), while only 60 hold 4 products.  
+- **Multi-Product Loyalty:** Customers with more than 2 products show significantly lower churn.  
+- **Balance Distribution:** France holds the highest total balance (€31.33M), followed by Germany and Spain.  
+- **Average Credit Score:** 651  
+- **Average Balance per Customer:** €76,485.89  
 
-## 📬 Contact
-For any questions or collaboration, feel free to reach out:  
-📧 **Email**: [sudeeprai969@gmail.com](mailto:sudeeprai969@gmail.com)  
-🔗 **LinkedIn**: [Sudeep Rai](https://www.linkedin.com/in/sudeep-rai/)
+## 🧠 Reflections
+
+- **Churn Risk Factors:** Low tenure, low product count, and low credit scores are strong indicators of churn risk.  
+- **Geographic Strategy:** Germany requires targeted retention efforts due to its high churn rate despite holding the excellent balance.  
+- **Product Bundling Opportunity:** Encouraging customers to adopt more products may improve loyalty and reduce churn.  
+- **Demographic Insights:** Gender distribution is balanced, but churn patterns may vary subtly across segments.  
+- **Tenure-Based Campaigns:** Onboarding and engagement strategies for new customers (0–1 year tenure) could reduce early churn.  
+- **Data-Driven Decisions:** These insights can guide customer success teams in prioritising outreach and tailoring retention strategies.  
+
+## ⚠️ Limitations  
+- No customer feedback or satisfaction data included.  
+- No time-series data to track churn over time.  
+- No income or transaction-level behaviour available.  
+
+## 🔮 Next Steps  
+- Integrate churn data with customer support logs to explore service-related churn.  
+- Add time-based data to analyse churn trends over months or quarters.  
+- Segment customers by lifetime value for prioritised retention strategies.  
+
+## 📘 What I Learned 
+- Built dynamic dashboards using Excel slicers and KPI cards.  
+- Learned how demographic and behavioural filters reveal churn patterns.  
+- Strengthened Power Query and pivot table skills for business-focused analysis.  
 
 ## 🚀 Final Thoughts
-This project provides valuable **customer churn insights**, helping financial institutions **optimise retention strategies** and **improve customer engagement**.
+This project demonstrates how Excel dashboards can uncover churn drivers and support data-driven retention strategies in the banking sector.
 
-Feel free to **open an issue or contribute** to refine the analysis! 🚀
+## 📬 Contact
+For questions or collaboration, feel free to reach out:
+📧 Email: sudiprai969@gmail.com  
+🔗 [LinkedIn – Sudeep Rai](https://www.linkedin.com/in/sudeeprai)  
 
+---
+
+> 💡 Full code and dashboard available in this repository.  
+> Open to feedback, suggestions, or contributions!
