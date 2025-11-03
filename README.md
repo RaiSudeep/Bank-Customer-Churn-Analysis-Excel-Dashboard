@@ -45,11 +45,11 @@ This analysis is useful for customer success teams, product managers, and data a
 - Built an interactive dashboard with slicers and KPI cards for dynamic filtering.  
 
 ## 📊 Dashboard Highlights  
-![Bank Customer Churn Dashboard](https://github.com/user-attachments/assets/aeceeece-b161-43d4-b9ec-b7abf6044de5)
+![Bank Customer Churn Dashboard](https://github.com/user-attachments/assets/343375ca-a58a-4d2e-86ff-f29646dc7f67)
 This visual summarises key metrics and allows dynamic filtering by geography, gender, product count, and churn status.
 
 ## 📈 Pivot Table Logic  
-![Bank Customer Churn Pivot Table](https://github.com/user-attachments/assets/62147903-b78a-4fab-b088-39c363bc4074)
+![Bank Customer Churn Pivot Table](https://github.com/user-attachments/assets/820654f9-8d37-4a3b-984d-f529cda5200f)
 The backend view supports dashboard insights and shows how KPIs were calculated using pivot tables and formulas.
 
 
@@ -57,13 +57,13 @@ The backend view supports dashboard insights and shows how KPIs were calculated 
 
 - **Total Customers Analysed:** 10,000  
 - **Overall Churn Rate:** 20.37%  
-- **Highest Churn Country:** Germany (814 churned out of 1,695 customers)  
+- **Highest Churn Country:** Germany (814 churned out of 2,509 customers)  
 - **Gender Split:** Fairly balanced – 45% Female, 55% Male  
 - **Tenure Impact:** In their first year, around 62% of customers left the bank. By the tenth year,
   churn dropped to just 21%, showing that long-term customers are far more likely to stay.  
-- **Product Usage:** The majority of customers hold only 1 product (5,084), while only 60 hold 4 products.  
+- **Product Usage:** The majority of customers hold only 1 product (5,084), while only 60 customers hold 4 products.  
 - **Multi-Product Loyalty:** Customers with more than 2 products show significantly lower churn.  
-- **Balance Distribution:** France holds the highest total balance (€31.33M), followed by Germany and Spain.  
+- **Balance Distribution:** France holds the highest total balance (€31.13M), followed by Germany and Spain.  
 - **Average Credit Score:** 651  
 - **Average Balance per Customer:** €76,485.89  
 
