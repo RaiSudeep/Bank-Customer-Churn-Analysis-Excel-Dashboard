@@ -59,7 +59,7 @@ The backend view supports dashboard insights and shows how KPIs were calculated 
 - **Overall Churn Rate:** 20.37%  
 - **Highest Churn Country:** Germany (814 churned out of 2,509 customers)  
 - **Gender Split:** Fairly balanced – 45% Female, 55% Male  
-- **Tenure Impact:** In their first year, around 62% of customers left the bank. By the tenth year,
+- **Tenure Impact:** In their first year, around 56% of customers left the bank. By the tenth year,
   churn dropped to just 21%, showing that long-term customers are far more likely to stay.  
 - **Product Usage:** The majority of customers hold only 1 product (5,084), while only 60 customers hold 4 products.  
 - **Multi-Product Loyalty:** Customers with more than 2 products show significantly lower churn.  
@@ -95,9 +95,9 @@ The backend view supports dashboard insights and shows how KPIs were calculated 
 This project demonstrates how Excel dashboards can uncover churn drivers and support data-driven retention strategies in the banking sector.
 
 ## 📬 Contact
-For questions or collaboration, feel free to reach out:
+For questions or collaboration, feel free to reach out:  
 📧 Email: sudiprai969@gmail.com  
-🔗 [LinkedIn – Sudeep Rai](https://www.linkedin.com/in/sudeeprai)  
+🔗 LinkedIn: [Sudeep Rai](https://www.linkedin.com/in/sudeep-rai/)  
 
 ---
 
